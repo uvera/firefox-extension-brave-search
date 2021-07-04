@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Brave search",
+  "short_name": "brave_search",
+  "description": "Adds Brave search as a search engine.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/brave.svg",
+    "64": "icons/brave.svg",
+    "256": "icons/brave.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Brave search",
+      "keyword": "brave",
+      "favicon_url": "https://cdn.search.brave.com/serp/v1/static/brand/9b3cd14668935362449eebb1854f575091a1169bf51aba6a8c17b39f64a9d07e-favicon-16x16.png",
+      "search_url": "https://search.brave.com/search?q={searchTerms}"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "BraveSearchExtension@io.Uvera",
+        "strict_min_version": "55.0"
+    }
+  },
+  "author": "uvera",
+  "homepage_url": "https://github.com/uvera/firefox-extension-brave-search"
+}

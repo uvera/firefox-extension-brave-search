@@ -1,0 +1,21 @@
+{
+  "name": "brave-search-web-ext",
+  "version": "1.0.0",
+  "description": "Brave search engine for web-ext",
+  "scripts": {
+    "lint": "web-ext lint",
+    "build": "web-ext build --overwrite-dest -a ./dist -s ./src",
+    "run": "web-ext run"
+  },
+  "keywords": [
+    "firefox"
+  ],
+  "author": "uvera",
+  "license": "MIT",
+  "devDependencies": {
+    "web-ext": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
