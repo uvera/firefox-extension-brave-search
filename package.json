@@ -1,6 +1,6 @@
 {
   "name": "brave-search-web-ext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Brave search engine for web-ext",
   "scripts": {
     "lint": "web-ext lint",
