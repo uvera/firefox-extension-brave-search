@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "Brave search",
-  "short_name": "brave_search",
+  "short_name": "brave_search_new",
   "description": "Adds Brave search as a search engine.",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "icons": {
     "16": "icons/brave.svg",
     "64": "icons/brave.svg",
@@ -20,10 +20,9 @@
   },
   "browser_specific_settings": {
     "gecko": {
-        "id": "BraveSearchExtension@io.Uvera",
-        "strict_min_version": "55.0"
+      "id": "BraveSearchExtension@io.dusan-uvera",
+      "strict_min_version": "55.0"
     }
   },
-  "author": "uvera",
   "homepage_url": "https://github.com/uvera/firefox-extension-brave-search"
 }
